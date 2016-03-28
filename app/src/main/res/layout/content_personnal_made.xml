@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="0dp"
+    tools:showIn="@layout/activity_personnal_made">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:background="@color/color1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginBottom="@dimen/margin10"
+                android:layout_marginTop="@dimen/margin30"
+                android:text="城市选择"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="到三亚醉氧，去海口体会热带风情，在\n五指山瞭望天涯海角，每个海南城市\n都是一道与众不同的风景"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/made_content_size" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin20"
+                android:text="地区选择" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height240"
+            android:background="@color/color2"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginBottom="@dimen/margin10"
+                android:layout_marginTop="@dimen/margin30"
+                android:text="装修状况"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="从无到有的成就感，还是省时省力\n 的豪装，尽在您的指尖"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/made_content_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height240"
+            android:background="@color/color3"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginBottom="@dimen/margin10"
+                android:layout_marginTop="@dimen/margin30"
+                android:text="户型类型"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="小巧的一居，精致的两居，宽敞的三居，土豪随意"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/made_content_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/color4"
+            android:layout_height="@dimen/view_height240"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginBottom="@dimen/margin10"
+                android:layout_marginTop="@dimen/margin30"
+                android:text="户型面积"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height240"
+            android:background="@color/color5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginBottom="@dimen/margin10"
+                android:layout_marginTop="@dimen/margin30"
+                android:text="价格范围"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height240"
+            android:background="@color/color6"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginBottom="@dimen/margin10"
+                android:layout_marginTop="@dimen/margin30"
+                android:text="关注特色"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height240"
+            android:background="@color/color1"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
